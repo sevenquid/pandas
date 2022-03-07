@@ -62,7 +62,14 @@ dF = pd.DataFrame(d)
 
 
 NBA = pd.read_csv('NBA_Stats.csv', sep = ',')
-print(type(NBA))
+# print(type(NBA))
+
+# print(NBA.info())
+
+# Print the first few rows
+print(NBA.head())
+print(NBA.tail())
+
 
 
 
